@@ -1,0 +1,15 @@
+def find_largenum (a, b, c):
+    if a > b and a > c:
+        return "A", a
+    elif b > a and b > c:
+        return "B", b
+    else:
+        return "C", c
+    
+putnum1 = int(input("Enter your first number: "))
+putnum2 = int(input("Enter your second number: "))
+putnum3 = int(input("Enter your third number: "))
+
+letter, largest = find_largenum(putnum1, putnum2, putnum3)
+    
+print("Letter", letter,"is the largest number with a value of", largest)

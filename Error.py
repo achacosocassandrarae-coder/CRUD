@@ -1,4 +1,4 @@
-balance = 1000  # starting balance
+balance = 1000000 
 
 while True:
     print("\nCurrent Balance:", balance)
